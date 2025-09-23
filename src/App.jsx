@@ -9,6 +9,7 @@ import solutions from './assets/solutions.png'
 import design1 from './assets/design1.jpg'
 import design2 from './assets/design2.jpg'
 import design3 from './assets/design3.jpg'
+import logo from './assets/logo.png'
 
 function App() {
   const [formData, setFormData] = useState({
@@ -84,7 +85,11 @@ function App() {
     <div className="page">
       <div className="form-wrapper">
         <div className="form-header">
-          <h1>NOORSPACE INTERIORS</h1>
+          
+          <div className='logo_wrapper'>
+            <img className='footer_logo' src={logo} alt="logo" />
+            <h1>NOORSPACE INTERIORS</h1>
+          </div>
           <p className="subtitle">We need your vision</p>
           <p className="desc">
             "With us, creativity meets trust, and your smile says it all."
@@ -215,7 +220,10 @@ function App() {
         </form>
 
         <div className="footer">
-          <p className="brand">Noorspace Interiors</p>
+          {/* <div className='logo_wrapper'> */}
+              <img className='footer_logo' src={logo} alt="logo" />
+              {/* <p className="brand">Noorspace Interiors</p> */}
+          {/* </div> */}
           <p>MvpColony, Visakhapatnam</p>
           <p>+91 9000951973 | noorspaceinteriors@gmail.com</p>
         </div>

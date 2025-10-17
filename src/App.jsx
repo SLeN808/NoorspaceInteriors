@@ -257,7 +257,7 @@ function App() {
           <img className='footer_logo' src={logo} alt="logo" />
           {/* <p className="brand">Noorspace Interiors</p> */}
           {/* </div> */}
-          <p>MvpColony, Visakhapatnam</p>
+          <p>31-30-32, opposite Ashoka reside, Dabagardens, Visakhapatnam</p>
           <p>+91 9000951973 | noorspaceinteriors@gmail.com</p>
         </div>
       </div>

@@ -18,7 +18,7 @@ body {
   width: 100%;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -30,14 +30,17 @@ body {
   background: linear-gradient(to right, #4c2100, #f6972a);
   color: white;
 }
+
 .form-header h1 {
   font-size: 28px;
   margin-bottom: 8px;
 }
+
 .form-header .subtitle {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
 .form-header .desc {
   font-size: 14px;
   font-weight: 200;
@@ -71,6 +74,7 @@ body {
   outline: none;
   transition: border 0.2s ease;
 }
+
 .feedback-form input:focus,
 .feedback-form select:focus,
 .feedback-form textarea:focus {
@@ -83,20 +87,24 @@ body {
   align-items: center;
   gap: 8px;
 }
+
 .star-btn {
   background: none;
   border: none;
   cursor: pointer;
 }
+
 .star-icon {
   width: 24px;
   height: 24px;
   color: #d1d5db;
 }
+
 .star-icon.active {
   fill: #f59e0b;
   color: #f59e0b;
 }
+
 .star-text {
   margin-left: 8px;
   font-size: 14px;
@@ -109,6 +117,7 @@ body {
   flex-direction: column;
   gap: 6px;
 }
+
 .radio-option {
   font-size: 14px;
   color: #374151;
@@ -116,7 +125,7 @@ body {
 
 /* Button */
 .submit-btn {
-  /* background: linear-gradient(to right, #047857, #d97706); */
+  margin-top: 5px;
   background: linear-gradient(to right, #4c2100, #f6972a);
   color: white;
   font-weight: bold;
@@ -131,10 +140,12 @@ body {
   gap: 8px;
   transition: transform 0.2s ease, background 0.2s ease;
 }
+
 .submit-btn:hover {
   transform: scale(1.05);
   background: linear-gradient(to right, #065f46, #b45309);
 }
+
 .icon-send {
   width: 18px;
   height: 18px;
@@ -148,12 +159,13 @@ body {
   font-size: 13px;
   color: #4b5563;
 }
+
 .footer .brand {
   font-weight: bold;
   color: #dc8b00;
 }
 
-.logo_wrapper{
+.logo_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,35 +187,40 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .thankyou-box {
   background: #fff;
   padding: 32px;
   border-radius: 16px;
   text-align: center;
   max-width: 400px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 .icon-success {
   width: 60px;
   height: 60px;
   color: #16a34a;
   margin-bottom: 12px;
 }
+
 .thankyou-box h2 {
   font-size: 22px;
   color: #166534;
   margin-bottom: 8px;
 }
+
 .thankyou-box p {
   color: #4b5563;
   margin-bottom: 8px;
 }
+
 .thankyou-box .quote {
   font-size: 13px;
   color: #b45309;
 }
 
-.image_container{
+.image_container {
   display: flex;
   /* align-items: center;
   justify-content: center; */
@@ -216,26 +233,26 @@ body {
   margin-top: 8px;
 }
 
-.image_container > img {
+.image_container>img {
   height: 200px;
   width: 150px;
   border-radius: 8px;
 }
 
-.solutions_wrapper{
+.solutions_wrapper {
   margin-top: 8px;
   display: flex;
   align-items: center;
   justify-self: center;
 }
 
-.solutions_wrapper > img {
+.solutions_wrapper>img {
   height: 400px;
   /* width: 300px; */
   object-fit: contain;
 }
 
-.pricing_container{
+.pricing_container {
   display: flex;
   /* align-items: center;
   justify-content: center; */
@@ -248,7 +265,7 @@ body {
   margin-top: 8px;
 }
 
-.pricing_container > div {
+.pricing_container>div {
   height: 250px;
   width: 150px;
   border-radius: 8px;
@@ -273,14 +290,14 @@ body {
   height: auto; */
   padding: 10px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fff5ed;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pricing_card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .pricing_card h3 {
@@ -318,6 +335,33 @@ body {
   left: 0;
 }
 
-.basic { border-top: 4px solid #3498db; }
-.mid { border-top: 4px solid #f39c12; }
-.luxury { border-top: 4px solid #9b59b6; }
+.basic {
+  border-top: 4px solid #3498db;
+}
+
+.mid {
+  border-top: 4px solid #f39c12;
+}
+
+.luxury {
+  border-top: 4px solid #9b59b6;
+}
+
+.brands {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.brands>img {
+  height: 100px;
+  width: 120px;
+  object-fit: contain;
+}

@@ -10,6 +10,19 @@ import design1 from './assets/design1.jpg'
 import design2 from './assets/design2.jpg'
 import design3 from './assets/design3.jpg'
 import logo from './assets/logo.png'
+import kalinga from './assets/kalinga.jpg'
+import ap from './assets/asianpaints.jpg'
+import austin from './assets/austin.jpg'
+import birla from './assets/birla.jpg'
+import caesarstone from './assets/caesarstone.jpg'
+import century from './assets/century.jpg'
+import greenlam from './assets/greenlam.jpg'
+import hafele from './assets/hafele.jpg'
+import kaff from './assets/kaff.jpg'
+import maria from './assets/maria.jpg'
+import merino from './assets/merino.jpg'
+import royale from './assets/royale.jpg'
+import sharon from './assets/sharon.jpg'
 
 function App() {
   const [formData, setFormData] = useState({
@@ -85,11 +98,11 @@ function App() {
     <div className="page">
       <div className="form-wrapper">
         <div className="form-header">
-          
-          <div className='logo_wrapper'>
-            <img className='footer_logo' src={logo} alt="logo" />
-            <h1>NOORSPACE INTERIORS</h1>
-          </div>
+
+          {/* <div className='logo_wrapper'> */}
+          {/* <img className='footer_logo' src={logo} alt="logo" /> */}
+          <h1>NOORSPACE INTERIORS</h1>
+          {/* </div> */}
           <p className="subtitle">We need your vision</p>
           <p className="desc">
             "With us, creativity meets trust, and your smile says it all."
@@ -212,6 +225,26 @@ function App() {
             </div>
           </div>
 
+          {/* brands */}
+          <div className='brands_wrapper'>
+            <label>Brands we use</label>
+            <div className='brands'>
+              <img src={kalinga} alt="kalinga" />
+              <img src={ap} alt="ap" />
+              <img src={austin} alt="austin" />
+              <img src={birla} alt="birla" />
+              <img src={caesarstone} alt="caesarstone" />
+              <img src={century} alt="century" />
+              <img src={greenlam} alt="greenlam" />
+              <img src={hafele} alt="hafele" />
+              <img src={kaff} alt="kaff" />
+              <img src={maria} alt="maria" />
+              <img src={merino} alt="merino" />
+              <img src={royale} alt="royale" />
+              <img src={sharon} alt="sharon" />
+            </div>
+          </div>
+
           {/* Submit */}
           <button type="submit" className="submit-btn">
             <Send className="icon-send" />
@@ -221,8 +254,8 @@ function App() {
 
         <div className="footer">
           {/* <div className='logo_wrapper'> */}
-              <img className='footer_logo' src={logo} alt="logo" />
-              {/* <p className="brand">Noorspace Interiors</p> */}
+          <img className='footer_logo' src={logo} alt="logo" />
+          {/* <p className="brand">Noorspace Interiors</p> */}
           {/* </div> */}
           <p>MvpColony, Visakhapatnam</p>
           <p>+91 9000951973 | noorspaceinteriors@gmail.com</p>

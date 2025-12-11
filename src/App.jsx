@@ -176,7 +176,7 @@ function App() {
           </div>
 
           {/* images */}
-          <div className='image_wrapper'>
+          {/* <div className='image_wrapper'>
             <label>Take a look at our projects</label>
             <div className='image_container'>
               <img src={design1} alt="design_img" />
@@ -186,7 +186,7 @@ function App() {
               <img src={design3} alt="design_img" />
               <img src={living} alt="project_img" />
             </div>
-          </div>
+          </div> */}
 
           {/* pricing */}
           <div className='pricing wrapper'>
